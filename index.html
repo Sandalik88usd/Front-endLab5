@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h3>Форма для заповнення</h3>
+        <form id="dataForm">
+            <label>ПІБ</label>
+            <input type="text" id="pib" placeholder="Наприклад: Іваненко І.І.">
+            <label>Група</label>
+            <input type="text" id="group" placeholder="Наприклад: IT-72">
+            <label>Варіант</label>
+            <input type="number" id="variant" placeholder="Наприклад: 17">
+            <label>Телефон</label>
+            <input type="text" id="phone" placeholder="Наприклад: (099)-305-8444">
+            <label>Пошта</label>
+            <input type="text" id="email" placeholder="Наприклад: ivan@gmail.com">
+            <button type="button" onclick="validateForm()">Підтвердити</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <div class="table-container">
+        <table id="colorTable">
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
